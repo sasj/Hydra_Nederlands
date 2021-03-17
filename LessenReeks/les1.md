@@ -94,8 +94,13 @@ osc(20, 0.1, 0.8)
 :arrow_right: Verander de waardes weer
 
 ---
-### :dart: Opdracht
+### :dart: Opdracht 1
 
 Ga naar [overzicht-functies/funcs_geometry.md](/overzicht-functies/funcs_geometry.md)
 
-Pas een of meerdere functies toe die je hier vind.
+Pas de functie kaleidoscoop toe.
+
+
+### :dart: Opdracht 2: verder spelen
+
+Kijk verder in het overzicht van de functies. Ook bij kleur / color.
