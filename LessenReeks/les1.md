@@ -93,6 +93,20 @@ osc(20, 0.1, 0.8)
 
 :arrow_right: Verander de waardes weer
 
+### Lijst - array
+
+```javascript
+[1,2,4,5]
+```
+
+```javascript
+osc([20,40,100], 0.1, 0.8)
+.rotate(0.8,0.2)
+.out()
+```
+
+
+
 ---
 ### :dart: Opdracht 1
 
