@@ -23,8 +23,8 @@ Functies voor het bewerken van kleur
 
 ```javascript
 osc(20,0,2)
-  .brightness( ({time}) => Math.sin(time) )
-  .out(o0)
+  .brightness( 0.3 )
+  .out()
 ```
 
 ### contrast (contrast)
@@ -39,7 +39,9 @@ Een grotere`hoeveelheid` maaks een hoger contrast
 
 ```javascript
 // 20Hz oscillator met contrastinterpolatie tussen 0,0-5,0
-osc(20).contrast( ({time}) => Math.sin(time) * 5 ).out(o0)
+osc(20)
+.contrast( ({time}) => Math.sin(time) * 5 )
+.out()
 ```
 
 ### kleur `vec4` (color `vec4`)
@@ -58,7 +60,9 @@ Geef de textuur een kleur.
 // 20Hz oscillator bron
 // kleurvolgorde van rood, groen, blauw, wit, zwart
 // output naar buffer o0
-osc(20).color([1,0,0,1,0],[0,1,0,1,0],[0,0,1,1,0]).out(o0)
+osc(20)
+.color([1,0,0,1,0],[0,1,0,1,0],[0,0,1,1,0])
+.out()
 ```
 
 ### colorama (colorama)
@@ -72,22 +76,23 @@ Verschuift HSV waardes.
 #### Voorbeeld
 
 ```javascript
-// 20Hz oscillator source
-// color sequence of Red, Green, Blue, White, Black
-// colorama sequence of 0.005, 0.5, 1.0 at 1/8 speed
-// output to buffer o0
+// 20Hz oscillator bron
+// kleur reeks in Rood, Groen, Blauw, Wit, Zwart
+// colorama reeks van 0.005, 0.5, 1.0 met 1/8 snelheid
 osc(20)
   .color([1,0,0,1,0],[0,1,0,1,0],[0,0,1,1,0])
   .colorama([0.005,0.33,0.66,1.0].fast(0.125))
-  .out(o0)
+  .out()
 ```
 
 ```javascript
 //
-noise(3,0.1).colorama( ({time}) => Math.sin(time/5) ).out(o0)
+noise(3,0.1)
+.colorama( ({time}) => Math.sin(time/5) )
+.out()
 ```
 
-### omkeren (invert)
+### omkeren - invert
 
 `.invert( hoeveelheid )`
 
@@ -98,7 +103,10 @@ Kleur omkeren.
 #### Voorbeeld
 
 ```javascript
-solid(1,1,1).invert([0,1]).out(o0)
+// kleur zal omgekeerd worden wanneer het 0 is.
+solid(1,1,1)
+.invert([0,1])
+.out(o0)
 ```
 
 ### lichtintensiteit (luma)
@@ -112,12 +120,18 @@ solid(1,1,1).invert([0,1]).out(o0)
 
 ```javascript
 // standaardwaarde
-osc(10,0,1).luma(0.5,0.1).out(o0)
-
-osc(10,0,[0,0.5,1,2]).luma([0.1,0.25,0.75,1].fast(0.25),0.1).out(o0)
+osc(10,0,1)
+.luma(0.5,0.1)
+.out()
 ```
 
-### waarde beperken (posterize)
+```javascript
+osc(10,0,[0,0.5,1,2])
+.luma([0.1,0.25,0.75,1].fast(0.25),0.1)
+.out()
+```
+
+### waarde beperken - posterize
 
 `.posterize( bins, gamma )`
 
@@ -127,14 +141,12 @@ osc(10,0,[0,0.5,1,2]).luma([0.1,0.25,0.75,1].fast(0.25),0.1).out(o0)
 #### Voorbeeld
 
 ```javascript
-// static gradient posterized, varying bins
-gradient(0).posterize( [1, 5, 15, 30] , 0.5 ).out(o0)
-
-// static gradient posterized, varying gamma
-gradient(0).posterize( 3, [0.1, 0.5, 1.0, 2.0] ).out(o0)
+gradient(0)
+.posterize( [1, 5, 15, 30] , 0.5 )
+.out()
 ```
 
-### verzadeging (saturate)
+### verzadeging - saturate
 
 `.saturate( hoeveelheid )`
 
@@ -143,7 +155,9 @@ gradient(0).posterize( 3, [0.1, 0.5, 1.0, 2.0] ).out(o0)
 #### Voorbeeld
 
 ```javascript
-osc(10,0,1).saturate( ({time}) => Math.sin(time) * 10 ).out()
+osc(10,0,1)
+.saturate( ({time}) => Math.sin(time) * 10 )
+.out()
 ```
 
 ### verschuiving (shift)
@@ -172,8 +186,12 @@ osc(10,0,1).saturate( ({time}) => Math.sin(time) * 10 ).out()
 
 ```javascript
 // standaardwaarde
-noise(3,0.1).thresh(0.5,0.04).out(o0)
+noise(3,0.1)
+.thresh(0.5,0.04)
+.out(o0)
+```
 
+```javascript
 noise(3,0.1)
   .thresh( ({time})=>Math.sin(time/2) , [0.04,0.25,0.75,1].fast(0.25) )
   .out(o0)

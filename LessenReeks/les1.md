@@ -8,7 +8,7 @@ Benodigheden
 
 ## Begin
 
-Ga naar https://hydra-editor.glitch.me  
+Ga naar[hydra.ojack.xy](hydra.ojack.xy)  
 Je krijgt een scherm met uitleg over Hydra. Sluit het venster (wanneer je het gelezen hebt). Je ziet nu een voorbeeld schets, deze kan elke keer verschillend zijn.
 
 De code van het voorbeeld wordt gelijk uitgevoerd.
@@ -61,7 +61,7 @@ osc(20,0.1,0.5)
 .out();
 
 ```
-We geven bij het eerste voorbeeld 1 argument, maar de functie `osc()` kan wel 3 argumenten ontvangen.
+We geven bij het eerste voorbeeld 1 argument, maar de functie `osc()` kan 3 argumenten ontvangen.
 - frequentie = de hoeveelheid golven
 - synchronisatie = snelheid
 - RGB kleur offset = kleurwaarde

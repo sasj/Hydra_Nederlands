@@ -18,7 +18,7 @@ Opmerking: Hydra is in ontwikkeling. Werkt momenteel alleen op Chrome of Chromiu
 
 ## Beginnen
 
-Ga naar https://hydra-editor.glitch.me
+Ga naar [hydra.ojack.xy](hydra.ojack.xy)
 
 * CTRL-Enter: voer 1 regel code uit
 * CTRL-Shift-Enter: voer alle code uit op het scherm
