@@ -2,7 +2,7 @@
 
 Functies voor het bewerken van kleur
 
-- [helderheid - brightness](#brightness)
+- [helderheid - brightness](#helderheid-(brightness))
 - [contrast - contrast](#contrast)
 - [kleur `vec4` - color `vec4`](#color-vec4)
 - [colorama - colorama](#colorama)
