@@ -18,7 +18,7 @@ Opmerking: Hydra is in ontwikkeling. Werkt momenteel alleen op Chrome of Chromiu
 
 ## Beginnen
 
-Ga naar [hydra.ojack.xy](hydra.ojack.xy)
+Ga naar [hydra.ojack.xyz](https://hydra.ojack.xyz)
 
 * CTRL-Enter: voer 1 regel code uit
 * CTRL-Shift-Enter: voer alle code uit op het scherm

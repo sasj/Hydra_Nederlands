@@ -1,6 +1,6 @@
 
 ## les 2
-[hydra.ojack.xy](hydra.ojack.xy)  
+Hydra -> [hydra.ojack.xyz](https://hydra.ojack.xyz)
 
 
 ## :crystal_ball: Vorige les
@@ -37,7 +37,7 @@ osc([20,40,100], 0.1, 0.8)
 ### Kleur
 
 `Overzicht-functies -> funcs_color`  
-Ga naar [Kleur functies](overzicht-functies/funcs_color.md)
+Ga naar [Kleur functies](../overzicht-functies/funcs_color.md)
 
 :arrow_right: Zoek op de functie omkeren - invert
 

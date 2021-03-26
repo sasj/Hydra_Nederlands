@@ -8,7 +8,7 @@ Benodigheden
 
 ## Begin
 
-Ga naar[hydra.ojack.xy](hydra.ojack.xy)  
+Ga naar [hydra.ojack.xyz](https://hydra.ojack.xyz)
 Je krijgt een scherm met uitleg over Hydra. Sluit het venster (wanneer je het gelezen hebt). Je ziet nu een voorbeeld schets, deze kan elke keer verschillend zijn.
 
 De code van het voorbeeld wordt gelijk uitgevoerd.
@@ -110,7 +110,7 @@ osc([20,40,100], 0.1, 0.8)
 ---
 ### :dart: Opdracht 1
 
-Ga naar [overzicht-functies/funcs_geometry.md](/overzicht-functies/funcs_geometry.md)
+Ga naar [overzicht-functies/funcs_geometry.md](../overzicht-functies/funcs_geometry.md)
 
 Pas de functie kaleidoscoop toe.
 
