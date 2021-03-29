@@ -23,14 +23,15 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 
+        {{site.data.samplelist.toc}}
         {% for item in site.data.samplelist.toc %}
-    <h3>{{ item.title }}</h3>
-      <ul>
-        {% for entry in item.subfolderitems %}
-          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+          <h3>{{ item.title }}</h3>
+          <ul>
+            {% for entry in item.subfolderitems %}
+              <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+            {% endfor %}
+          </ul>
         {% endfor %}
-      </ul>
-  {% endfor %}
 
 
         {% if site.github.is_project_page %}
@@ -49,6 +50,7 @@
         </ul>
         {% endif %}
       </header>
+
       <section>
 
       {{ content }}
