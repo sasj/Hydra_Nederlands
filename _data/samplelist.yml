@@ -2,14 +2,14 @@ toc:
   - title: Overzicht Functies
     subfolderitems:
       - page: Kleur
-        url: /Hydra_Nederlands/overzicht-functies/funcs_color.md
+        url: /Hydra_Nederlands/overzicht-functies/funcs_color
       - page: Geometrie
-        url: /Hydra_Nederlands/overzicht-functies/funcs_geometry.md
+        url: /Hydra_Nederlands/overzicht-functies/funcs_geometry
       - page: Bronnen
-        url: /Hydra_Nederlands/overzicht-functies/funcs_sources.md
+        url: /Hydra_Nederlands/overzicht-functies/funcs_sources
   - title: Lessen
     subfolderitems:
       - page: Les 1
-        url: /Hydra_Nederlands/LessenReeks/les1.md
+        url: /Hydra_Nederlands/LessenReeks/les1
       - page: Les 2
-        url: /Hydra_Nederlands/LessenReeks/les2.md
+        url: /Hydra_Nederlands/LessenReeks/les2

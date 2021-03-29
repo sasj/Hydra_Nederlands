@@ -10,8 +10,10 @@ Bronnen worden als basis gebruikt om visuele inhoud te produceren. Het is als wa
 - [vorm - shape](#shape)
 - [solide - solid](#solid)
 - [src](#src)
+- [src - camera](#src_-_camera)
 - [voronoi](#voronoi)
 
+---
 ### kleur verloop gradient
 
 `gradient( snelheid )`
@@ -24,7 +26,7 @@ Bronnen worden als basis gebruikt om visuele inhoud te produceren. Het is als wa
 gradient(2)
 .out()
 ```
-
+---
 ### ruis - noise
 
 `noise( schaal, offset )`
