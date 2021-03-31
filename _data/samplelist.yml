@@ -5,11 +5,19 @@ toc:
         url: /Hydra_Nederlands/overzicht-functies/funcs_color
       - page: Geometrie
         url: /Hydra_Nederlands/overzicht-functies/funcs_geometry
+      - page: Globale variabelen
+        url: /Hydra_Nederlands/overzicht-functies/funcs_global-variables
+      - page: Operatoren
+        url: /Hydra_Nederlands/overzicht-functies/funcs_operators
       - page: Bronnen
         url: /Hydra_Nederlands/overzicht-functies/funcs_sources
+      - page: Parameter reeksen / lijst
+        url: /Hydra_Nederlands/overzicht-functies/funcs_parameter-sequences
   - title: Lessen
     subfolderitems:
       - page: Les 1
         url: /Hydra_Nederlands/LessenReeks/les1
       - page: Les 2
         url: /Hydra_Nederlands/LessenReeks/les2
+      - page: Les 3
+        url: /Hydra_Nederlands/LessenReeks/les3
