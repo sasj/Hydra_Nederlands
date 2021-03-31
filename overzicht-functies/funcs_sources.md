@@ -43,7 +43,7 @@ Genereer [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise).
 noise( ({time}) => Math.sin(time/10)*50 , ({time}) => Math.sin(time/2)/500 )
     .out()
 ```
-
+---
 ### osc
 
 `osc (frequentie, synchroniseren, RGB kleur offset)`
@@ -74,7 +74,7 @@ osc( 10, [-10,-1,-0.1,0,0.1,1,10], 0 )
 osc(10,0.1, ({time}) => Math.sin(time/10) * 100 )
 .out()
 ```
-
+---
 ### uit - out
 
 `.out( buffer )`
@@ -104,13 +104,13 @@ osc(10,0.1, ({time}) => Math.sin(time/10) * 100 ) // kleur offset
   .out(o3)
 render(o3)
 ```
-
+---
 ### weergeven - render
 
 `render( buffer )`
 
 * `buffer`: buffer (standaardwaarde `o0`)
-
+---
 #### voorbeeld
 
 ```javascript
@@ -130,7 +130,7 @@ osc( 10, [-10,-1,-0.1,0,0.1,1,10], 0 ).out(o2) // sync
 osc(10,0.1, ({time}) => Math.sin(time/10) * 100 ).out(o3) // kleur offset
 render()
 ```
-
+---
 ### vorm - shape
 
 `shape( zijkanten, straal, gladstrijken)`
@@ -159,7 +159,7 @@ shape(5,0.5,0.1).repeat(19,19)
         .scrollX(1,-0.25))
   .out()
 ```
-
+---
 ### solide - solid
 
 `solid( r, g, b, a )`
@@ -176,15 +176,33 @@ shape(5,0.5,0.1).repeat(19,19)
 solid([1,0,0],[0,1,0],[0,0,1],1)
 .out()
 ```
-
+---
 ### src
 
 `src( invoer )`
 
 * `invoer` :: invoer (voorbeelden: `o0`, `s1`)
 
-See `hydra-voorbeelds` repository
 
+---
+### src - camera
+
+activeer camera
+'s0.initCam()'
+
+#### voorbeeld:
+
+```javascript
+s0.initCam() // webcam naar s0
+
+src(s0)
+.rotate(0.2,0.5)
+.kaleid(2)
+.out()
+```
+
+
+---
 ### voronoi
 
 `voronoi( schaal, snelheid, mengen )`
