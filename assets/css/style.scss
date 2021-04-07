@@ -10,11 +10,12 @@ header ul {
     background: #f4f4f4;
     border-radius: 5px;
     border: 1px solid #e0e0e0;
-    width: auto;
+    width: 250px;
+    float left;
 }
 
 header li {
-    width: 89px;
+    width: auto;
     border-right: 0px solid #e0e0e0;
     height: 20px;
     float: none;
@@ -29,7 +30,7 @@ header ul a {
     font-size: 11px;
     color: #676767;
     display: block;
-    text-align: center;
+    text-align: left;
     padding-top: 6px;
     height: auto;
   }
