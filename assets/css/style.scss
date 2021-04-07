@@ -5,7 +5,7 @@
 
 header ul {
     list-style: none;
-    height: 20px;
+    height: auto;
     padding: 0;
     background: #f4f4f4;
     border-radius: 5px;
@@ -15,7 +15,7 @@ header ul {
 
 header li {
     width: 89px;
-    border-right: 1px solid #e0e0e0;
+    border-right: 0px solid #e0e0e0;
     height: 20px;
     float: none;
 }
