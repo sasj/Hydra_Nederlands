@@ -1,29 +1,60 @@
 
-## les 3
+## les 4
 Hydra -> [hydra.ojack.xyz](https://hydra.ojack.xyz)
 
 
-## :crystal_ball: Vorige les
+## Audio reactief!
+
+Audio functies: [overzicht-functies/funcs_audio.md](overzicht-functies/funcs_audio.md)
 
 
-## :camera: :movie_camera: :camera: webcam :camera: :movie_camera: :camera:
+Voor het gebruik van de audio functies gebruiken we toegewezen variabele naam 'a' (de a van audio).
 
-`s0` = de S van source oftewel bron
-`initCam()` = functie dat het webcam beeld pakt
+---
+#### eerste kijken wat voor input we krijgen.
+
+`.show()`
+
+```javascript
+a.show();
+```
+
+---
+#### meerdere bins
+
+`.setBins( bins )`
+
+* `bins` :: integer (standaardwaarde `4`)
+
+```javascript
+a.setBins(6);
+```
+
+
+---
+## audio als variabel
+De verschillende waardes van de bins kan worden gebruikt om het beeld aan te passen en te laten reageren op geluid.
+
+'a' variabele wordt weer gebruikt.  
+'.fft[x]' vragen we de waarde van een bin aan. Tussen '[ ]' komt een getal van de bin die we willen gebruiken. Als de standaardwaarde van het aantal bins niet veranderd is, zijn er 4 bins. Belangrijk om te onthouden is dat de eerste bin met het nummer 0 begint. Bins de we kunnen aanroepen zijn dus '0' '1' '2' '3'.
+
+'a.fft[0]'
+om te zorgen dat de waarde altijd blijft updaten gaan we de waarde in een functie zetten.
+' () => a.fft[0]'
 
 
 ```javascript
-s0.initCam() // webcam naar s0
+a.show()
 
-src(s0)
+osc(10)
+.rotate( () => a.fft[3])
 .out()
 ```
-het kan zijn dat je een pop-up krijgt om gebruik van de camera toe te laten.
+
 
 
 
 ---
-### :dart: Vandaag
+### -> Vandaag verder
 
-Op onderzoek uit!  
-Kijk naar de overzicht van functies en de voorbeelden in Hydra zelf. Probeer zelf functies aan te passen of toe te voegen.
+Gebruik de audio input als waarde in verschillende functies.

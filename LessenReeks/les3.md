@@ -3,10 +3,10 @@
 Hydra -> [hydra.ojack.xyz](https://hydra.ojack.xyz)
 
 
-## :crystal_ball: Vorige les
+## -> Vorige les
 
 
-## :camera: :movie_camera: :camera: webcam :camera: :movie_camera: :camera:
+## webcam
 
 `s0` = de S van source oftewel bron
 `initCam()` = functie dat het webcam beeld pakt
@@ -21,9 +21,8 @@ src(s0)
 het kan zijn dat je een pop-up krijgt om gebruik van de camera toe te laten.
 
 
-
 ---
-### :dart: Vandaag
+### -> Vandaag
 
 Op onderzoek uit!  
 Kijk naar de overzicht van functies en de voorbeelden in Hydra zelf. Probeer zelf functies aan te passen of toe te voegen.

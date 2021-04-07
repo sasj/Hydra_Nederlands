@@ -34,7 +34,7 @@ Belangrijke toets combinaties
 
 
 
-### :arrow_right: doen:
+### -> doen:
 - bestudeer verschillende voorbeelden. Kan je zelf bedenken wat verschillende functies doen?
 
 
@@ -108,13 +108,13 @@ osc([20,40,100], 0.1, 0.8)
 
 
 ---
-### :dart: Opdracht 1
+### -> Opdracht 1
 
 Ga naar [overzicht-functies/funcs_geometry.md](../overzicht-functies/funcs_geometry.md)
 
 Pas de functie kaleidoscoop toe.
 
 
-### :dart: Opdracht 2: verder spelen
+### -> Opdracht 2: verder spelen
 
 Kijk verder in het overzicht van de functies. Ook bij kleur / color.

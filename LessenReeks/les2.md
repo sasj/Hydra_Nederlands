@@ -3,7 +3,7 @@
 Hydra -> [hydra.ojack.xyz](https://hydra.ojack.xyz)
 
 
-## :crystal_ball: Vorige les
+## -> Vorige les
 
 
 ```javascript
@@ -59,7 +59,7 @@ het kan zijn dat je een pop-up krijgt om gebruik van de camera toe te laten.
 
 
 ---
-### :dart: Opdracht 1
+### -> Opdracht 1
 
 Voeg nu functies toe die het beeld manipuleren.
 
