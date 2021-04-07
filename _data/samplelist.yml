@@ -1,6 +1,8 @@
 toc:
   - title: Overzicht Functies
     subfolderitems:
+      - page: Audio
+        url: /Hydra_Nederlands/overzicht-functies/funcs_audio
       - page: Kleur
         url: /Hydra_Nederlands/overzicht-functies/funcs_color
       - page: Geometrie
