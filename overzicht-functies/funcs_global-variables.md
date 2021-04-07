@@ -10,14 +10,15 @@ Handige variabelen die globaal zijn gedefinieerd en binnen functies als paramete
 `mouse`
 
 * `.x` :: x positie van de muis
-* `.y` :: y positie van de muis 
+* `.y` :: y positie van de muis
 
 #### Voorbeeld
 
 Regel de oscillatorfrequentie met de muispositie:
 
 ```javascript
-osc(() => mouse.x).out()
+osc(() => mouse.x)
+.out()
 ```
 
 ### tijd - time
@@ -31,5 +32,6 @@ osc(() => mouse.x).out()
 Bestuur de oscillator met behulp van een sinusgolf op basis van de huidige tijd:
 
 ```javascript
-osc( ({time}) => Math.sin(time) ).out()
+osc( ({time}) => Math.sin(time) )
+.out()
 ```

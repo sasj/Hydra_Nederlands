@@ -22,8 +22,6 @@ osc(
 * `hoeveelheid` :: float (default `x`)
 
 ```javascript
-osc(
-   [80, 100, 200, 50].fast(0.2), 1 )
-)
+osc( [80, 100, 200, 50].fast(0.2), 1 ) )
 .out()
 ```
