@@ -58,7 +58,7 @@ De `osc` krijgt hier 1 input, het getal 20.
 ```javascript
 //osc (frequentie, synchroniseren, RGB kleur offset)
 osc(20,0.1,0.5)
-.out();
+.out()
 
 ```
 We geven bij het eerste voorbeeld 1 argument, maar de functie `osc()` kan 3 argumenten ontvangen.

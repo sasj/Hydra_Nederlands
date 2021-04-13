@@ -9,7 +9,7 @@ Hydra -> [hydra.ojack.xyz](https://hydra.ojack.xyz)
 ```javascript
 //osc (frequentie, synchroniseren, RGB kleur offset)
 osc(20,0.1,0.5)
-.out();
+.out()
 ```
 
 ```javascript

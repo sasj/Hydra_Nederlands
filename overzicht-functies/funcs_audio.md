@@ -31,7 +31,7 @@ Hiermee laat je de bins zien van de audio input. Standaard is dat 4 balkjes rech
 
 `.show()`
 ```javascript
-a.show();
+a.show()
 ```
 
 ### hide
@@ -40,7 +40,7 @@ zorg dat de audio visualisatie rechts onder verdwijnt.
 `.hide()`
 
 ```javascript
-a.hide();
+a.hide()
 ```
 
 
@@ -53,7 +53,7 @@ Per bin is een bepaalde frequentie bereik ingesteld. Als je meer bins hebt zorgt
 * `bins` :: integer (standaardwaarde `4`)
 
 ```javascript
-a.setBins(6);
+a.setBins(6)
 ```
 
 ### setCutoff
