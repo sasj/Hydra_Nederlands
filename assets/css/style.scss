@@ -10,8 +10,6 @@ header ul {
     background: #f4f4f4;
     border-radius: 5px;
     border: 1px solid #e0e0e0;
-    
-    float: left;
 }
 
 header li {
@@ -44,5 +42,8 @@ header ul a {
 @media print, screen and (max-width: 960px) {
 header {
     padding-right: 0px;
+    position: inherit;
+    right: 0px;
+    top: 0px;
 }
 }

@@ -16,7 +16,7 @@ Voor het gebruik van de audio functies gebruiken we toegewezen variabele naam 'a
 `.show()`
 
 ```javascript
-a.show();
+a.show()
 ```
 
 ---
@@ -27,7 +27,7 @@ a.show();
 * `bins` :: integer (standaardwaarde `4`)
 
 ```javascript
-a.setBins(6);
+a.setBins(6)
 ```
 
 
